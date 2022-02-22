@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.preguntas{
+    background-color: gainsboro;
+}
+
+#importantes{
+    background-color: whitesmoke;
+    font-weight: 600;
+}
+
+a{
+    color: blue;
+    text-decoration: none;
+}
