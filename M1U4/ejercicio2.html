@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unidad 4 - Ejercicio 2</title>
+</head>
+<body>
+    <script>
+        var numeros = [1,50,100,7,570,101,95,67];
+        var numeromasgrande = 0;
+        document.write("<b>Array:</b> " + numeros + '<br>')
+        for(let i = 0; i < numeros.length; i++){
+            if(numeros[i]>numeromasgrande){
+                numeromasgrande=numeros[i];
+            }
+        }
+            document.write("<b>El número más grande es: " + numeromasgrande + "</b>");
+    </script>
+</body>
+</html>
