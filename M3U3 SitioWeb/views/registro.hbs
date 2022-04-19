@@ -53,32 +53,34 @@
                     <h2 class="font-weight-bold mb-5 d-flex justify-content-center">Registrate</h2>
                     <div class="row mb-3">
                         <div class="col mb-3">
-                            <form action="/registro" method="post">
-                                <input type="text" class="form-control bg-dark text-white" placeholder="Nombre"
+                            <form action="/registro" method="post" class="mb-4">
+                                <input type="text" class="form-control bg-dark text-white border-1" placeholder="Nombre"
                                     aria-label="First name" aria-required="First name" id="nombre" name="nombre">
                         </div>
                         <div class="col mb-3">
-                            <input type="text" class="form-control bg-dark text-white" placeholder="Apellido"
+                            <input type="text" class="form-control bg-dark text-white border-1" placeholder="Apellido"
                                 aria-label="Last name" aria-required="Last name" id="apellido" name="apellido">
                         </div>
-                    </div>
-                    </form>
-                    <form action="/registro" method="post" class="mb-4">
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">Email</label>
-                            <input type="email" class="form-control bg-dark text-white" placeholder="Ingresa tu email"
-                                id="exampleInputEmail1" aria-describedby="emailHelp" aria-required="Email" name="email">
+                            <input type="email" class="form-control bg-dark text-white border-1"
+                                placeholder="Ingresa tu email" id="exampleInputEmail1" aria-describedby="emailHelp"
+                                aria-required="Email" name="email">
                         </div>
                         <div class="mb-3">
                             <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-                            <input type="password" class="form-control bg-dark text-white" placeholder="Ingresa tu contraseña"
-                                id="exampleInputPassword1" aria-required="password">
+                            <input type="password" class="form-control bg-dark text-white border-1"
+                                placeholder="Ingresa tu contraseña" id="exampleInputPassword1" aria-required="password">
                         </div>
-                        <button type="submit" class="btn btn-outline-danger text-light w-100 mt-3">Registrarse</button>
+                        <button type="submit" class="btn btn-outline-danger w-100 mt-3">Registrarse</button>
                         <a href="login" id="emailHelp"
                             class="d-flex justify-content-center mt-3 form-text text-light text-decoration-none">¿Tienes
                             una cuenta ya? Logeate!</a>
+                    </div>
                     </form>
+                    {{#if message}}
+                    <p class="text-muted font-weight-bold text-center"> {{message}} </p>
+                    {{/if}}
                     <p class="font-weight-bold text-center text-muted">O puedes registrarte con</p>
                     <div class="d-flex justify-content-around">
                         <button type="submit" class="btn btn-outline-secondary flex-grow-1 me-2"><i
