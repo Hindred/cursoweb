@@ -1,0 +1,56 @@
+.carousel-inner{
+    max-height: 39rem;
+}
+
+.color{
+    width: 200px;
+    height: 100px;
+    background-color: gray;
+    border-radius: 10px;
+}
+
+.colorNuevo{
+    width: 270px;
+    height: 200px;
+    background-color: gray;
+    border-radius: 10px;
+}
+
+.color-carousel{
+    width: 100%;
+    height: 500px;
+    background-color: #808080;
+    border-radius: 10px;
+    display: block;
+}
+
+.colorido{
+    color: #9c9c9c;
+}
+
+.vivo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: 57px;
+    height: 20px;
+    background-color: #313131;
+    border-radius: 10px;
+    font-size: 10px;
+    margin: 0 auto;
+}
+
+.nuevo{
+    background-color: #323232;
+}
+
+.nuevito{
+    background-color: #282828;
+}
+
+.eQ{
+    text-decoration: none;
+    display: block;
+    margin-top: 1rem;
+}
